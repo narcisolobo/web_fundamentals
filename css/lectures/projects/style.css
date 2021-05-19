@@ -1,0 +1,49 @@
+/* CSS RULES */
+
+/* 
+3 Parts of a CSS Rule:
+1. Selector
+2. Property
+3. Value
+*/
+
+/* 
+HTML governs the structure
+CSS governs the style
+JS governs the behavior
+*/
+
+/* ELEMENT, CLASS, ID */
+
+h1 {
+    background-color: aqua;
+}
+
+.new_bg {
+    background-color: greenyellow;
+}
+
+#third_line {
+    background-color: orange;
+}
+
+.sans-serif {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+table {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}

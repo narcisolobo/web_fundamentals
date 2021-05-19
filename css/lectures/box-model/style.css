@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    border: 1px solid red;
+    /* width, style, and color */
+
+    padding: 20px;
+    margin: 16px 10px 20px 5px;
+    /* 1  value: all four sides */
+    /* 2 values: top and bottom, left and right */
+    /* 3 vals: top, left and right, bottom */
+}
+
+/* Rule of Thumb:
+Margins push things out
+Paddings push things in
+*/
+
+#nav {
+    width: 150px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#banana {
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 400px;
+}

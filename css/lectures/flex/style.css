@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif
+}
+
+.box {
+    min-height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: cadetblue;
+    height: 100vh;
+}
+
+.services {
+    background-color: darkkhaki;
+}
+
+.about {
+    background-color: deeppink;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: grey;
+    color: white;
+    padding: .5em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5em;
+    list-style-type: none;
+}
+
+.title {
+    font-family: 'Pattaya', sans-serif;
+}
