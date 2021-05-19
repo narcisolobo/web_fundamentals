@@ -1,0 +1,39 @@
+.green {
+    color: green;
+}
+
+.larger {
+    font-size: 4em;
+}
+
+.box {
+    background-color: deepskyblue;
+    padding: 1em;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkgoldenrod;
+    padding: 1em;
+    gap: 1em;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgoldenrod;
+    padding: 1em;
+    gap: 1em;
+}
+
+.row3 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: darkgoldenrod;
+    padding: 1em;
+    gap: 1em;
+}
