@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* outline: 1px dashed red; */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: .5em;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url('./images/pexels-photo-7534340.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 4.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    width: 300px;
+}
+
+#splash {
+    position: relative;
+    width: 50%;
+}
+
+#frame {
+    width: 200px;
+    border-radius: 50%;
+    /* border: inset; */
+    border: 5px inset white;
+    position: absolute;
+    top: -30px;
+}
+
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url('./images/book.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 4.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about p {
+    width: 36ch;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+footer {
+    min-height: 200px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: grid;
+    place-items: center;
+}
