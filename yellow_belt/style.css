@@ -42,6 +42,8 @@ nav {
     font-size: 1em;
 }
 
+/* tools styles */
+
 #tools {
     display: flex;
     justify-content: center;
@@ -49,9 +51,10 @@ nav {
     gap: 1.5em;
 }
 
-#tools p {
+#tools div {
     color: white;
     font-size: 2em;
+    text-decoration: underline;
 }
 
 #tools img {
@@ -65,6 +68,8 @@ main {
 .flipped {
     transform: scale(-1);
 }
+
+/* Feature styles */
 
 .feature {
     margin-top: 1.5em;

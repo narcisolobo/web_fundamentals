@@ -8,6 +8,7 @@
     <title>GamingDojo</title>
 </head>
 <body>
+    <!-- Start of navbar -->
     <nav>
         <div class="container">
             <h1>Gaming<span class="purple-text">Dojo</span></h1>
@@ -16,20 +17,26 @@
                     <option value="Euro">Euro €</option>
                 </select>
                 <img src="./images/cart-light.png" alt="cart">
-                <p>0</p>
+                <div id="items"></div>
                 <img src="./images/search-light.png" alt="search">
             </div>
         </div>
     </nav>
+    <!-- End of navbar -->
+    <!-- Start of main -->
     <main>
+        <!-- start of highlights -->
         <div class="container">
             <h3 id="big-title">Highlights</h3>
         </div>
+        <!-- end highlights -->
+        <!-- start carousel -->
         <div class="container">
-            <img src="./images/chevron-left.png" alt="left">
-            <img src="./images/stonepunk.png" alt="Stone Punk">
-            <img class="flipped" src="./images/chevron-left.png" alt="right">
+            <img onclick="prev()" src="./images/chevron-left.png" alt="left">
+            <img id="carousel" src="./images/stonepunk.png" alt="Stone Punk">
+            <img onclick="next()" class="flipped" src="./images/chevron-left.png" alt="right">
         </div>
+        <!-- end carousel -->
         <div class="container">
             <div class="feature">
                 <img class="feature-image" src="./images/cafe-neko.png" alt="Cafe Neko">
@@ -43,7 +50,7 @@
                             <p class="line-through">€14.98</p>
                             <h3>€10.49</h3>
                         </div>
-                        <button class="btn green">Buy</button>
+                        <button onclick="increment()" class="btn green">Buy</button>
                     </div>
                 </div>
             </div>
@@ -60,7 +67,7 @@
                             <p class="line-through">€8.19</p>
                             <h3>€7.39</h3>
                         </div>
-                        <button class="btn green">Buy</button>
+                        <button onclick="increment()" class="btn green">Buy</button>
                     </div>
                 </div>
             </div>
@@ -71,13 +78,13 @@
                     <h2>Stone Punk 10000 BCE</h2>
                     <img class="os-image" src="./images/windows.png" alt="Windows">
                     <img class="os-image" src="./images/apple.png" alt="Apple">
-                    <img class="os-image" src="./images/linux.png" alt="Linux">
+                    <img onclick="linux()" class="os-image" src="./images/linux.png" alt="Linux">
                     <div class="price-info">
                         <button class="btn purple">New</button>
                         <div class="prices">
                             <h3>€10.49</h3>
                         </div>
-                        <button class="btn green">Buy</button>
+                        <button onclick="increment()" class="btn green">Buy</button>
                     </div>
                 </div>
             </div>

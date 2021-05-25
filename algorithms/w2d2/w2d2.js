@@ -5,13 +5,32 @@ var monster = {
   types: ["poison", "grass"]
 };
 
+// Dot Notation
 // start with name of variable
 // then a dot
 // then the key that contains the value
-// Dot Notation
 console.log(monster.name);
 
+// Bracket Notation
+// start with name of variable
+// then add square brackets
+// inside brackets insert key name in quotes
 console.log(monster['name'])
+
+// Reverse Lookup
+function reverseLookUp(object, value) {
+  var keyArray = Object.keys(object)
+  for(var i = 0; i < keyArray.length; i++) {
+    if(object[keyArray[i]] == value) {
+      console.log(`The key is: ${keyArray[i]}`)
+      return keyArray[i]
+    }
+  }
+  console.log(`The key containing value ${value} was not found.`)
+  return null
+}
+
+console.log(reverseLookUp(monster, "Bulbasaur"))
 
 console.log(monster.types[1])
 
