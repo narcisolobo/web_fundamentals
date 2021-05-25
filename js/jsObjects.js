@@ -39,11 +39,11 @@ var myCar = {
   model: "Wrangler",
   year: 2020,
   gas: 12,
-  drive: function(miles) {
+  drive: function (miles) {
     console.log("Driving...")
-    this.gas -= miles/20
+    this.gas -= miles / 20
   },
-  showStats: function() {
+  showStats: function () {
     console.log(`Year, make and model: ${this.year} ${this.make} ${this.model}, Gas: ${this.gas}`)
   }
 }
@@ -63,8 +63,7 @@ var person = {
   gender: 'male',
   weight: 155,
   name: "Narciso Lobo",
-  walk: function() {
+  walk: function () {
     console.log('I\'m taking a walk...')
   }
 }
-
